@@ -35,6 +35,7 @@ const config: HardhatUserConfig = {
   etherscan: {
     apiKey: process.env.ETHERSCAN_API_KEY,
   },
+  typechain: { target: "web3-v1" },
 };
 
 export default config;
